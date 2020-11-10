@@ -1,0 +1,88 @@
+.container{
+    width: 1170px;margin: auto;
+}
+.header .slider{
+    background-image: url("../images/dragon.jpg");
+   background-size: cover;
+    height: 815px;
+}
+.header .slider .nav{
+    margin: 0  ;
+    text-align: center;
+    padding-top: 450px;
+
+}
+
+.header .navbar {
+    background-color: #251f31;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+ .header .navbar ul{
+    list-style: none;
+    float: right;
+    padding-left: 0;
+
+}
+ .header .navbar li{ float: left; padding:10px; text-transform: capitalize;}
+.header .navbar ul li a{ color: #FFFFFF; text-decoration: none}
+.header .navbar ul li a:hover{color: green}
+  
+
+.IMAGES{
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.IMAGES .images > div{
+    float: left;
+    width: 33.3333%;
+}
+.IMAGES .images > div > img{width: 95%; margin: 10px;
+    background-color: #F2F2F2;
+      border: 1px solid #F2F2F2}
+
+.contactform{
+    overflow: hidden;
+    background-color: #252F31;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+.contactform .form{
+    float: left;
+    width: 45%;
+    margin-top: 40px;
+}
+.contactform .form label{
+    color: #F2F2F2;
+    display: block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.contactform .form input {
+    display: inline-block;
+  background-color: #4B5557;
+    border: 0;
+    width: 80%;
+    height: 30px;
+}
+.contactform .form textarea{
+    display: inline-block;
+    background-color: #4B5557;
+    border: 0;
+    width: 80%;
+    height: 300px;
+}
+.contactform .form button{
+    border: 0;
+    background-color: #191E22;
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    color: #F2F2F2;
+    text-transform: capitalize;
+}
